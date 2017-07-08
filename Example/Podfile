@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CrashGuard_Example' do
+  pod 'CrashGuard', :path => '../'
+
+  target 'CrashGuard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
