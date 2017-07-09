@@ -1,0 +1,22 @@
+{
+  "name": "CrashGuard",
+  "version": "0.1.0",
+  "summary": "A short description of CrashGuard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SomnusLee/CrashGuard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SomnusLee": "somnuslee1988@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SomnusLee/CrashGuard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CrashGuard/Classes/**/*"
+}

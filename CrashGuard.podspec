@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CrashGuard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CrashGuard.'
+  s.summary          = 'Protect your app from some common crashes.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Protect your app form some crashes, like Container, String, Unrecognized Selector, Bad Access and so on.
                        DESC
 
-  s.homepage         = 'https://github.com/SomnusLee/CrashGuard'
+  s.homepage         = 'https://github.com/SomnusLee1988/CrashGuard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SomnusLee' => 'somnuslee1988@gmail.com' }
-  s.source           = { :git => 'https://github.com/SomnusLee/CrashGuard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SomnusLee1988/CrashGuard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
