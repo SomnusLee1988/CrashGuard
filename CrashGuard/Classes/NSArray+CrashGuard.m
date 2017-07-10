@@ -81,11 +81,15 @@
 
 - (NSArray *)guardCrashObjectsAtIndexes:(NSIndexSet *)indexes {
     
-    if (indexes.lastIndex > self.count) {
+    NSUInteger lastIndex = indexes.lastIndex;
+    
+    if (lastIndex == NSNotFound || lastIndex >= [self count]) {
         return nil;
     }
     
-    return [self guardCrashObjectsAtIndexes:indexes];
+    NSArray *value = [self guardCrashObjectsAtIndexes:indexes];
+    
+    return value;
 }
 
 #pragma mark - objectAtIndex:
